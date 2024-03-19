@@ -1,0 +1,1000 @@
+ 1094  ./5-beginning_and_end.rb hvn
+ 1095  ls
+ 1096  chmod u+x *.rb
+ 1097  ./6-phone_number.rb 9273845274
+ 1098  ./6-phone_number.rb 92738452744
+ 1099  ./6-phone_number.rb 292738452744
+ 1100  ./6-phone_number.rb 9273845274
+ 1101  chmod u+x *.rb
+ 1102  ./7-OMG_WHY_ARE_YOU_SHOUTING.rb "I realLy hOpe VancouvEr posseSs Yummy Soft vAnilla Dupper Mint Ice Nutella cream" | cat -e
+ 1103  git add .
+ 1104  git commit -m "added"
+ 1105  git push
+ 1106  chmod u+x *.rb
+ 1107  ls
+ 1108  ./100-textme.rb 'Feb 1 11:00:00 ip-10-0-64-11 mdr: 2016-02-01 11:00:00 Sent SMS [SMSC:SYBASE1] [SVC:backendtextme] [ACT:] [BINF:] [FID:] [from:12392190384] [to:19148265919] [flags:-1:0:-1:-1:-1] [msg:99:life forms are so amazingly primitive that they still think digital watches are a pretty neat idea.] [udh:0:]'
+ 1109  ./100-textme.rb 'Feb 1 11:00:00 ip-10-0-0-11 mdr: 2016-02-01 11:00:00 Receive SMS [SMSC:SYBASE1] [SVC:] [ACT:] [BINF:] [FID:] [from:Google] [to:+16474951758] [flags:-1:0:-1:0:-1] [msg:127:This planet has - or rather had - a problem, which was this: most of the people on it were unhappy for pretty much of the time.] [udh:0:]'
+ 1110  git add .
+ 1111  git commit -m "advanced"
+ 1112  git push
+ 1113  cd ..
+ 1114  ls
+ 1115  cd 0x07-networking_basics
+ 1116  ls
+ 1117  cat .
+ 1118  cat *
+ 1119  clear
+ 1120  ls
+ 1121  cat 4-TCP_and_UDP_ports
+ 1122  exit
+ 1123  cat /etc/hosts
+ 1124  code /etc/hosts
+ 1125  ls
+ 1126  chmod u+x 0-change_your_home_IP
+ 1127  ./0-change_your_home_IP
+ 1128  cat /etc/hosts
+ 1129  ping localhost
+ 1130  ping 127.0.0.2
+ 1131  ping facebook.com
+ 1132  cat /etc/hosts
+ 1133  wc -l < /etc/hosts
+ 1134  head -n 12 /etc/hosts > /etc/hosts1
+ 1135  sudo head -n 12 /etc/hosts > /etc/hosts1
+ 1136  sudo head -n 12 /etc/hosts > hosts1
+ 1137  head -n 12 /etc/hosts > hosts1
+ 1138  ls
+ 1139  cat hosts1
+ 1140  cat /etc/hosts
+ 1141  echo "127.0.0.2 localhost">hosts1
+ 1142  cat hosts1
+ 1143  ls
+ 1144  head -n 12 /etc/hosts > hosts1
+ 1145  cat hosts1
+ 1146  echo /etc/hosts >hosts1
+ 1147  cat hosts1
+ 1148  head -n 12 /etc/hosts > hosts1
+ 1149  cat hosts1
+ 1150  head -n 12 hosts1 > /etc/hosts
+ 1151  sudo head -n 12 hosts1 > /etc/hosts
+ 1152  head -n 12 hosts1 > sudo tee -a /etc/hosts
+ 1153  chmod u+x 0-change_your_home_IP
+ 1154  ./0-change_your_home_IP
+ 1155  cat /etc/hosts
+ 1156  git add .
+ 1157  git commit -m "task1"
+ 1158  git push
+ 1159  chmod u+x 1-show_attached_IPs
+ 1160  ./1-show_attached_IPs
+ 1161  ./1-show_attached_IPs | cat -e
+ 1162  ./100-port_listening_on_localhost
+ 1163  nc -l 98
+ 1164  sudo nc -l 98
+ 1165  sudo ./100-port_listening_on_localhost
+ 1166  ip -4 -o addr show | awk '{print $4}' | cut -d "/" -f 1
+ 1167  ip addr show | grep -oP '(?<=^\d: ).*(?=: )
+ 1168  ip addr show | grep -oP '(?<=^\d: ).*(?=: )'
+ 1169  ip addr show lo | grep -oP '(?<=inet\s)\d+(\.\d+){3}'
+ 1170  ip addr show eth2 | grep -oP '(?<=inet\s)\d+(\.\d+){3}'
+ 1171  ping facebook.com
+ 1172  ping 8.8.8.8
+ 1173  shellcheck .
+ 1174  shellcheck $1
+ 1175  shellcheck 0-change_your_home_IP
+ 1176  shellcheck 1-show_attached_IPs
+ 1177  ./1-show_attached_IPs
+ 1178  ./1-show_attached_IPs | cat -e
+ 1179  shellcheck 100-port_listening_on_localhost
+ 1180  git add .
+ 1181  ls
+ 1182  chmod u+x 100-port_listening_on_localhost
+ 1183  git add .
+ 1184  git commit -m "done"
+ 1185  git push
+ 1186  exit
+ 1187  echo "Exit status : "$?
+ 1188  ?
+ 1189  $?
+ 1190  echo "Status exit : "$?
+ 1191  tail -f test.sh &
+ 1192  jobs
+ 1193  echo $!
+ 1194  ps -ef | grep 10390
+ 1195  echo “Shell process id is : ” $$
+ 1196  echo $$
+ 1197  ps -ef | grep 10360
+ 1198  vi testAll.sh
+ 1199  chmod u+x testAll.sh
+ 1200  ./testAll.sh
+ 1201  vi testAll.sh
+ 1202  ls -ltr
+ 1203  echo $_
+ 1204  vi test6.sh
+ 1205  chmod u+x test6.sh
+ 1206  ./test6.sh
+ 1207  echo $_
+ 1208  clear
+ 1209  ip -s link
+ 1210  netstat -i
+ 1211  ss
+ 1212  ls
+ 1213  cd alx-system_engineering-devops
+ 1214  ls
+ 1215  git pull
+ 1216  mkdir 0x07-networking_basics
+ 1217  cd 0x07-networking_basics
+ 1218  code .
+ 1219  sudo apt install net-tools
+ 1220  cd ..
+ 1221  ls
+ 1222  mkdir 0x06-regular_expressions
+ 1223  cd 0x06-regular_expressions
+ 1224  echo 0x06-regular_expressions>README.md
+ 1225  ls
+ 1226  code .
+ 1227  cd ~
+ 1228  ls
+ 1229  cd ..
+ 1230  ls
+ 1231  cd ..
+ 1232  ls
+ 1233  cd ..
+ 1234  ls
+ 1235  cd etc
+ 1236  ls
+ 1237  cat hosts
+ 1238  nc -help
+ 1239  nc -l 2389
+ 1240  ifconfig
+ 1241  cd -
+ 1242  ls
+ 1243  cd home
+ 1244  ls
+ 1245  cd smokey1014
+ 1246  ls
+ 1247  ifconfig
+ 1248  ls
+ 1249  cd alx-system_engineering-devops
+ 1250  ls
+ 1251  mkdir 0x08-networking_basics_2
+ 1252  cd 0x08-networking_basics_2
+ 1253  ls
+ 1254  echo 0x08-networking_basics_2>README.md
+ 1255  ls
+ 1256  code .
+ 1257  exit
+ 1258  git add .
+ 1259  git commit -m "env bash fix"
+ 1260  git push
+ 1261  git add .
+ 1262  git commit -m "env bash fix2"
+ 1263  git push
+ 1264  shellcheck 0-change_your_home_IP
+ 1265  cat /etc/hosts
+ 1266  ls
+ 1267  ./0-change_your_home_IP
+ 1268  cat /etc/hosts
+ 1269  git add .
+ 1270  git commit -m "configure local host"
+ 1271  git push
+ 1272  shellcheck 0-change_your_home_IP
+ 1273  git add .
+ 1274  git commit -m "configure local host"
+ 1275  git push
+ 1276  exit
+ 1277  git add .
+ 1278  git commit -m "corrections"
+ 1279  git push
+ 1280  exit
+ 1281  git add .
+ 1282  git commit -m "readme"
+ 1283  git push
+ 1284  git add .
+ 1285  git commit -m "stashed project"
+ 1286  git push
+ 1287  git add .
+ 1288  git commit -m "stashed project ext"
+ 1289  git push
+ 1290  chmod u+x .
+ 1291  ls
+ 1292  chmod u+x .
+ 1293  ls
+ 1294  chmod u+x 0-what-is-my-pid 1-list_your_processes 100-process_and_pid_file 101-manage_my_process  2-show_your_bash_pid  3-show_your_bash_pid_made_easy 4-to_infinity_and_beyond 5-dont_stop_me_now 6-stop_me_if_you_can  67-stop_me_if_you_can 7-highlander  8-beheaded_process
+ 1295  ls
+ 1296  git add .
+ 1297  git commit -m "stashed project exe"
+ 1298  git push
+ 1299  ls
+ 1300  cd alx-system_engineering-devops
+ 1301  ls
+ 1302  cd 0x08-networking_basics_2
+ 1303  ls
+ 1304  code .
+ 1305  cd ..
+ 1306  ls
+ 1307  cd 0x07-networking_basics
+ 1308  code .
+ 1309  cd ..
+ 1310  mkdir 0x05-processes_and_signals
+ 1311  cd0x05-processes_and_signals
+ 1312  echo 0x05-processes_and_signals>README.md
+ 1313  ls
+ 1314  rm -rf README.md
+ 1315  cd 0x05-processes_and_signals
+ 1316  echo 0x05-processes_and_signals>README.md
+ 1317  la
+ 1318  code .
+ 1319  cd ~
+ 1320  ls
+ 1321  node --version
+ 1322  sudo apt install nodejs
+ 1323  apt-get update 
+ 1324  sudo apt-get update 
+ 1325  apt update nodejs
+ 1326  sudo apt-node update 
+ 1327  sudo apt install nodejs
+ 1328  node --version
+ 1329  node
+ 1330  python3
+ 1331  node
+ 1332  node -v
+ 1333  python3 -v
+ 1334  exit
+ 1335  node
+ 1336  node winning.js
+ 1337  chmod u+x winning.js
+ 1338  ./winning.js
+ 1339  cd ~
+ 1340  ls
+ 1341  cd -
+ 1342  cd ..
+ 1343  ls
+ 1344  cd ..
+ 1345  ls
+ 1346  cd usr
+ 1347  ls
+ 1348  cd bin
+ 1349  ls
+ 1350  cd /mnt/c/Users/SMOKEY/Desktop/zaio-challenges
+ 1351  ls
+ 1352  clear
+ 1353  ls
+ 1354  git pull
+ 1355  chmod u-x README.md app.js index.html style.css
+ 1356  ls
+ 1357  chmod -x README.md app.js index.html style.css
+ 1358  ls
+ 1359  chmod u  README.md app.js index.html style.css
+ 1360  chmod --help
+ 1361  ls
+ 1362  git add .
+ 1363  git commit -m "Project Overview Doc"
+ 1364  git push
+ 1365  git add .
+ 1366  git commit -m "Authors File"
+ 1367  git push
+ 1368  git pull
+ 1369  git config pull.rebase false
+ 1370  git pull
+ 1371  git add .
+ 1372  git commit -m "Authors File"
+ 1373  git push
+ 1374  clear
+ 1375  ls
+ 1376  chmod u+x console.py
+ 1377  ls
+ 1378  cat tests/test_models/test_help
+ 1379  cat tests/test_models/test_help | ./console.py
+ 1380  clear
+ 1381  ./console.py
+ 1382  cat tests/test_models/test_help | ./console.py
+ 1383  clear
+ 1384  ./console.py
+ 1385  cat tests/test_models/test_help | ./console.py
+ 1386  ./console.py
+ 1387  echo "help" | ./console.py
+ 1388  echo "python3 -m unittest discover tests" | bash
+ 1389  git add .
+ 1390  ./console.py
+ 1391  clear
+ 1392  git add .
+ 1393  git commit -m "basic project structure and test files from alx"
+ 1394  git push
+ 1395  git add console.py
+ 1396  git commit -m "Simple cmd console"
+ 1397  git push
+ 1398  ls
+ 1399  cd rough_work
+ 1400  ls
+ 1401  chmod u+x console.py
+ 1402  ls
+ 1403  ./console.py
+ 1404  ls
+ 1405  ./console.py
+ 1406  git pull
+ 1407  git add .
+ 1408  git commit -m "console with CRUD operations"
+ 1409  git push
+ 1410  git add .
+ 1411  git commit -m "Fixing few bugs
+ 1412  ./console.py
+ 1413  git add .
+ 1414  git commit -m "Fixing few bugs"
+ 1415  git push
+ 1416  exit
+ 1417  ls
+ 1418  ./console.py
+ 1419  clear
+ 1420  ./console.py
+ 1421  clear
+ 1422  ./console.py
+ 1423  git pull
+ 1424  git add .
+ 1425  git commit -m "Template for CRUD operations complete"
+ 1426  git push
+ 1427  ls
+ 1428  cd json_convertor
+ 1429  ls
+ 1430  chmod u+x *.py
+ 1431  ./to_json.py
+ 1432  ls
+ 1433  chmodu+X *.py
+ 1434  ls
+ 1435  chmod u+x *.py
+ 1436  ls
+ 1437  ./from_json.py
+ 1438  ./to_json.py
+ 1439  ./from_json.py
+ 1440  git add .
+ 1441  git commit -m "serialization and deserialization"
+ 1442  git push
+ 1443  ls
+ 1444  chmod u+x *.py
+ 1445  ./info_finder.py
+ 1446  git add .
+ 1447  git commit -m "saved"
+ 1448  git push
+ 1449  ./info_finder.py
+ 1450  ld
+ 1451  ls
+ 1452  cd tests
+ 1453  ls
+ 1454  chmod +x test1.py
+ 1455  ./test1.py
+ 1456  git add .
+ 1457  git commit -m "working dir"
+ 1458  git push
+ 1459  ls
+ 1460  cd tests
+ 1461  ls
+ 1462  ./test1.py
+ 1463  ls /models/
+ 1464  ls ../models/
+ 1465  chmod +x *.p ../models/
+ 1466  chmod +x *.py ../models/
+ 1467  clear
+ 1468  chmod +x *.py ../models/
+ 1469  ls ../models/
+ 1470  ./test1.py
+ 1471  touch __init__.py
+ 1472  chmod +x __init__.py
+ 1473  git pull
+ 1474  cd ../../
+ 1475  ls
+ 1476  cd AirBnB
+ 1477  ls
+ 1478  ./test1.py
+ 1479  lc
+ 1480  ls
+ 1481  cd models
+ 1482  ls
+ 1483  touch user.py place.py state.py review.py amenity.py city.py
+ 1484  cd ..
+ 1485  ls
+ 1486  ./test_base_model.py 
+ 1487  ls
+ 1488  ./test_base_model_dict.py 
+ 1489  ls
+ 1490  ./test_save_reload_base_model.py
+ 1491  ls
+ 1492  ./test_save_reload_base_model.py
+ 1493  git add .
+ 1494  git commit -m "added"
+ 1495  ls
+ 1496  cd tests
+ 1497  ls
+ 1498  cd test_models
+ 1499  ls
+ 1500  chmod u+x *.py
+ 1501  ./test_base_model.py
+ 1502  cd ../../
+ 1503  ls
+ 1504  ./test_base_model.py
+ 1505  ls
+ 1506  cd tests
+ 1507  ls
+ 1508  chmod u+X *.py
+ 1509  ls
+ 1510  chmod u+x *.py
+ 1511  ls
+ 1512  cd ..
+ 1513  ls
+ 1514  cd tests
+ 1515  ls
+ 1516  ./test_base_model.py
+ 1517  ls
+ 1518  cd test_models
+ 1519  ls
+ 1520  ./test_base_model.py
+ 1521  clear
+ 1522  cd ../../
+ 1523  ./console.py
+ 1524  echo "help" | ./console.py
+ 1525  cat text_help
+ 1526  ls
+ 1527  cat text_help
+ 1528  echo "help" >> test_help
+ 1529  cat text_help
+ 1530  ls
+ 1531  cat test_help
+ 1532  cat test_help | ./console.py
+ 1533  echo "python3 -m unittest discover tests" | bash
+ 1534  clear
+ 1535  ls
+ 1536  cd tests
+ 1537  cd test_models
+ 1538  ls
+ 1539  ./test_base_model_dict.py
+ 1540  cd ../../
+ 1541  ./test_base_model_dict.py
+ 1542  ls
+ 1543  ./test_base_model_dict.py
+ 1544  echo "python3 -m unittest discover tests" | bash
+ 1545  ./test_base_model_dict.py
+ 1546  ./test_base_model.py
+ 1547  ./test_base_model_dict.py
+ 1548  cd models
+ 1549  cd engine
+ 1550  ls
+ 1551  chmod u+x *.py
+ 1552  ls
+ 1553  clear
+ 1554  cd ../../
+ 1555  ls
+ 1556  ./test_save_reload_base_model.py
+ 1557  ./test_base_model_dict.py
+ 1558  ./test_save_reload_base_model.py
+ 1559  git add .
+ 1560  git commit -m "creating pass, but fails to save,if object added manually, creating fails"
+ 1561  git push
+ 1562  ls
+ 1563  ./test_base_model.py
+ 1564  /bin/python3.10 /home/smokey1014/AirBnB_clone/models/base_model.py
+ 1565  /bin/python3.10 /home/smokey1014/AirBnB_clone/console.py
+ 1566  ls
+ 1567  cd models
+ 1568  ls
+ 1569  chmod u+x *.py
+ 1570  ls
+ 1571  cd engine
+ 1572  ls
+ 1573  cd ..
+ 1574  ls
+ 1575  cd ..
+ 1576  ls
+ 1577  cd tests
+ 1578  .s
+ 1579  ls
+ 1580  cd test_models
+ 1581  ls
+ 1582  cd ..
+ 1583  ls
+ 1584  ./ test_base_model.py
+ 1585  ./test_base_model.py
+ 1586  /bin/python3.10 /home/smokey1014/AirBnB_clone/console.py
+ 1587  ls
+ 1588  ./test_base_model_dict.py
+ 1589  ls
+ 1590  ./test_save_reload_base_model.py
+ 1591  cd tests
+ 1592  ls
+ 1593  cd test_models
+ 1594  ls
+ 1595  ./test_base_model.py 
+ 1596  pwd
+ 1597  cd ../..
+ 1598  ls
+ 1599  cd rough_work
+ 1600  ls
+ 1601  cd AirBnB
+ 1602  ls
+ 1603  code .
+ 1604  ls
+ 1605  git add .
+ 1606  git commit -m "push"
+ 1607  git push
+ 1608  ls
+ 1609  ./ test_base_model.py
+ 1610  ./test_base_model.py
+ 1611  ls
+ 1612  ./test_base_model.py
+ 1613  ls
+ 1614  ./test_base_model_dict.py
+ 1615  ./test_base_model.py
+ 1616  ./console.py
+ 1617  clear
+ 1618  ./console.py
+ 1619  ls
+ 1620  cd models
+ 1621  ls
+ 1622  cd ..
+ 1623  ls
+ 1624  rmdir rough_work
+ 1625  ls
+ 1626  cd ..
+ 1627  ls
+ 1628  rmdir AirBnB_clone
+ 1629  cd AirBnB_clone
+ 1630  ls
+ 1631  ./test_base_model.py
+ 1632  ls
+ 1633  ./test_save_reload_base_model.py
+ 1634  ls
+ 1635  ./test_base_model.py
+ 1636  ./test_save_reload_base_model.py
+ 1637  clear
+ 1638  python models/base_model.py
+ 1639  python3 models/base_model.py
+ 1640  python3 models/engine/file_storage.py
+ 1641  ./test_save_reload_base_model.py
+ 1642  python3 models/engine/file_storage.py
+ 1643  python3 models/base_model.py
+ 1644  ls
+ 1645  ./test_base_model.py 
+ 1646  ./test_base_model_dict.py 
+ 1647  ls
+ 1648  ./test_save_reload_base_model.py 
+ 1649  ./test_base_model_dict.py 
+ 1650  ./test_save_reload_base_model.py 
+ 1651  ./test_base_model.py 
+ 1652  ./test_base_model_dict.py 
+ 1653  ./test_save_reload_base_model.py 
+ 1654  ./test_base_model.py
+ 1655  ls
+ 1656  ./test_save_reload_base_model.py
+ 1657  ./console.py
+ 1658  ls
+ 1659  ./test_base_model.py
+ 1660  ./test_base_model_dict.py
+ 1661  ls
+ 1662  ./test_save_reload_base_model.py
+ 1663  ./test_base_model.py
+ 1664  git add .
+ 1665  git commit -m "__init__"
+ 1666  git push
+ 1667  ./test_base_model.py
+ 1668  git add .
+ 1669  git commit -m "importation error"
+ 1670  git push
+ 1671  ./test_base_model.py
+ 1672  git add .
+ 1673  git commit -m "importation error"
+ 1674  git push
+ 1675  ./test_base_model.py
+ 1676  ./test_base_model_dict.py
+ 1677  ./test_base_model.py
+ 1678  git add .
+ 1679  git commit -m "removed the storage linking, now the './test_base_model_dict.py' and './test_base_model.py' works as expected now"
+ 1680  git push
+ 1681  ./test_base_model.py
+ 1682  ls
+ 1683  test_save_reload_base_model.py
+ 1684  ./test_save_reload_base_model.py
+ 1685  ls
+ 1686  ./test_base_model.py
+ 1687  ls
+ 1688  ./test_base_model_dict.py
+ 1689  ls
+ 1690  ./test_save_reload_base_model.py
+ 1691  git add .
+ 1692  git commit -m "finnaly got it, removed an additional parameter from FileStorage.save"
+ 1693  git push
+ 1694  ./console.py
+ 1695  ls
+ 1696  ./console.py
+ 1697  ls
+ 1698  chmod +x console.py
+ 1699  ./console.py
+ 1700  git add .
+ 1701  git commit -m "console.log"
+ 1702  git push
+ 1703  chmod +x *.py
+ 1704  cat file.json ; echo ""
+ 1705  ls
+ 1706  ./test_save_reload_user.py
+ 1707  cat file.json ; echo ""
+ 1708  ./test_save_reload_user.py
+ 1709  cat file.json ; echo ""
+ 1710  ./test_save_reload_user.py
+ 1711  cat file.json ; echo ""
+ 1712  ./test_save_reload_user.py
+ 1713  cat file.json ; echo ""
+ 1714  ./test_save_reload_user.py
+ 1715  cat file.json ; echo ""
+ 1716  git add .
+ 1717  git commit -m "for tests"
+ 1718  git push
+ 1719  exit
+ 1720  shellcheck console.py
+ 1721  pycodestyle console.py
+ 1722  pycodestyle *.py
+ 1723  ls
+ 1724  cd models
+ 1725  ls
+ 1726  pycodestyle *.py
+ 1727  git add .
+ 1728  git commit -m "pycodestyle"
+ 1729  git push
+ 1730  exit
+ 1731  pycodestyle *.py
+ 1732  cd models
+ 1733  pycodestyle *.py
+ 1734  cd engine
+ 1735  pycodestyle *.py
+ 1736  cd ../../
+ 1737  ls
+ 1738  cd tests
+ 1739  ls
+ 1740  pycodestyle *.py
+ 1741  cd test_moedls
+ 1742  ls
+ 1743  cd test_moedels
+ 1744  cd test_models
+ 1745  pycodestyle *.py
+ 1746  ls
+ 1747  cd ../../
+ 1748  ls
+ 1749  cd models
+ 1750  ls
+ 1751  cd ..
+ 1752  git add .
+ 1753  git commit -m "tests"
+ 1754  git push
+ 1755  cd tests
+ 1756  ls
+ 1757  pycodestyle *.py
+ 1758  ls
+ 1759  cd test_models
+ 1760  ls
+ 1761  chmod u+x *.py
+ 1762  ls
+ 1763  pycodestyle *.py
+ 1764  ls
+ 1765  cd test_engine
+ 1766  ls
+ 1767  pycodestyle *.py
+ 1768  chmod u+x *.py
+ 1769  pycodestyle *.py
+ 1770  git add .
+ 1771  git commit -m "few pycodestyle fixes"
+ 1772  git push
+ 1773  cd ../../
+ 1774  cd models
+ 1775  cd ../models
+ 1776  ls
+ 1777  chmod u+x *.py
+ 1778  ls
+ 1779  pycodestyle *.py
+ 1780  git add .
+ 1781  git commit -m "indentation fix"
+ 1782  git push
+ 1783  cd engine
+ 1784  pycodestyle *.py
+ 1785  cd ../../tests
+ 1786  pycodestyle *.py
+ 1787  cd test_models
+ 1788  pycodestyle *.py
+ 1789  ls
+ 1790  cd ..
+ 1791  ls
+ 1792  chmod u+x *.py
+ 1793  ls
+ 1794  git add .
+ 1795  git commit -m "indentation fix"
+ 1796  git push
+ 1797  git add .
+ 1798  git commit -m "tests fix"
+ 1799  git push
+ 1800  ls
+ 1801  cd AirBnB_clone
+ 1802  code .
+ 1803  cd ..
+ 1804  sudo apt install mysql-server
+ 1805  sudo systemctl start mysql.service
+ 1806  cat 0-list_databases.sql | mysql -hlocalhost -uroot -p
+ 1807  cat 1-create_database_if_missing.sql | mysql -hlocalhost -uroot -p
+ 1808  cat 0-list_databases.sql | mysql -hlocalhost -uroot -p
+ 1809  cat 1-create_database_if_missing.sql | mysql -hlocalhost -uroot -p
+ 1810  cat 2-remove_database.sql | mysql -hlocalhost -uroot -p
+ 1811  cat 0-list_databases.sql | mysql -hlocalhost -uroot -p
+ 1812  cat 0-list_databases.sql | mysql -hlocalhost -usmokey1014 -p
+ 1813  cat 2-remove_database.sql | mysql -hlocalhost -usmokey1014 -p
+ 1814  sudo mysql
+ 1815  cat 2-remove_database.sql | mysql -hlocalhost -usmokey1014 -p
+ 1816  cat 0-list_databases.sql | mysql -hlocalhost -usmokey1014 -p
+ 1817  sudo mysql -u smokey1014 -p
+ 1818  cat 3-list_tables.sql | mysql -hlocalhost -uroot -p mysql
+ 1819  cat 3-list_tables.sql | mysql -hlocalhost -usmokey1014 -p mysql
+ 1820  cat 4-first_table.sql | mysql -hlocalhost -usmokey1014 -p hbtn_0c_0
+ 1821  mysql -u smokey1014 -p 4-first_table.sql hbtn_0c_0
+ 1822  cat 3-list_tables.sql | mysql -hlocalhost -usmokey1014 -p mysql
+ 1823  cat 3-list_tables.sql | mysql -hlocalhost -usmokey1014 -phbtn_0c_0
+ 1824  cat 4-first_table.sql | mysql -hlocalhost -usmokey1014 -p hbtn_0c_0
+ 1825  sudo mysql -u smokey1014 -p
+ 1826  cat 1-create_database_if_missing.sql | mysql -hlocalhost -uroot -p
+ 1827  cat 4-first_table.sql | mysql -hlocalhost -usmokey1014 -p hbtn_0c_0
+ 1828  cat 3-list_tables.sql | mysql -hlocalhost -usmokey1014 -phbtn_0c_0
+ 1829  git add .
+ 1830  git commit -m "mandatory tasks"
+ 1831  git push
+ 1832  git add .
+ 1833  git commit -m "advanced"
+ 1834  git push
+ 1835  sudo apt update
+ 1836  sudo nano /etc/apt/sources.list
+ 1837  sudo apt upgrade
+ 1838  sudo apt install mysql-server
+ 1839  sudo systemctl status mysql
+ 1840  sudo service mysql status
+ 1841  sudo service mysql start
+ 1842  ls
+ 1843  sudo systemctl enable mysql
+ 1844  sudo mysql_secure_installation
+ 1845  mysql -u root -p
+ 1846  mysql
+ 1847  sudo mysql
+ 1848  mysql -u root -p
+ 1849  sudo mysql_secure_installation
+ 1850  mysql -u root -p
+ 1851  sudo mysql
+ 1852  mysql -u smokey1014 -p
+ 1853  mysql -u root -p
+ 1854  systemctl status mysql.service
+ 1855  sudo systemctl start mysql
+ 1856  sudo service mysql start
+ 1857  sudo systemctl start mysql
+ 1858  sudo service mysql status
+ 1859  mysql --version
+ 1860  sudo mysql
+ 1861  mysql -u root -p
+ 1862  ls
+ 1863  cd -
+ 1864  cd ..
+ 1865  ls
+ 1866  cd ..
+ 1867  ls
+ 1868  cd ..
+ 1869  ls
+ 1870  cd root
+ 1871  sudo cd root
+ 1872  cd home
+ 1873  ls
+ 1874  cd smokey1014
+ 1875  ls
+ 1876  cat 0-list_databases.sql | mysql -uroot -p
+ 1877  cat 0-list_databases.sql | mysql -uroot -p | Pass@123
+ 1878  service mysql start 
+ 1879  service mysql start
+ 1880  sudo service mysql status
+ 1881  sudo service mysql start
+ 1882  cat 0-list_databases.sql | mysql -uroot -p
+ 1883  echo "Database\ninfomation_schema\nmysql\nperfomance_schema\nsys" >> 0-list_databases.sql | mysql -uroot -p
+ 1884  ls
+ 1885  cat 0-list_databases.sql | mysql -uroot -p
+ 1886  vi 0-list_databases.sql
+ 1887  cat 0-list_databases.sql | mysql -uroot -p
+ 1888  ld
+ 1889  ls
+ 1890  cd alx-higher_level_programming
+ 1891  ls
+ 1892  mkdir 0x0D-SQL_introduction
+ 1893  cd 0x0D-SQL_introduction
+ 1894  code .
+ 1895  git add .
+ 1896  git commit -m "documentation"
+ 1897  git push
+ 1898  git pull
+ 1899  git config pull.rebase false
+ 1900  git pull
+ 1901  git push
+ 1902  sudo mysql
+ 1903  sudo mysql -u root -p
+ 1904  exit
+ 1905  ls
+ 1906  cd alx-higher_level_programming
+ 1907  ls
+ 1908  cd 0x0D-SQL_introduction
+ 1909  code .
+ 1910  cd ..
+ 1911  ls
+ 1912  git add .
+ 1913  git commit -m 
+ 1914  git commit -m "test"
+ 1915  git push
+ 1916  git commit -m 
+ 1917  git add .
+ 1918  git commit -m "test"
+ 1919  git push
+ 1920  git add .
+ 1921  git commit -m "test"
+ 1922  git push
+ 1923  git add .
+ 1924  git commit -m "test"
+ 1925  git push
+ 1926  git add .
+ 1927  git commit -m "test"
+ 1928  git push
+ 1929  git add .
+ 1930  git commit -m "test"
+ 1931  git push
+ 1932  git add .
+ 1933  git commit -m "test"
+ 1934  git push
+ 1935  git add .
+ 1936  git commit -m "test"
+ 1937  git push
+ 1938  git add .
+ 1939  git commit -m "test"
+ 1940  git push
+ 1941  git add .
+ 1942  git commit -m "test"
+ 1943  git push
+ 1944  git add .
+ 1945  git commit -m "test"
+ 1946  git push
+ 1947  git add .
+ 1948  git commit -m "test"
+ 1949  git push
+ 1950  git add .
+ 1951  git commit -m "test"
+ 1952  git push
+ 1953  git add .
+ 1954  git commit -m "test"
+ 1955  git push
+ 1956  git add .
+ 1957  git commit -m "test"
+ 1958  git push
+ 1959  git add .
+ 1960  git commit -m "test"
+ 1961  git add .
+ 1962  git push
+ 1963  git add .
+ 1964  git commit -m "test"
+ 1965  git push
+ 1966  git add .
+ 1967  git commit -m "test"
+ 1968  git push
+ 1969  git commit -m "test"
+ 1970  git add .
+ 1971  git commit -m "test"
+ 1972  git push
+ 1973  git add .
+ 1974  git commit -m "test"
+ 1975  git push
+ 1976  git add .
+ 1977  git commit -m "test"
+ 1978  git push
+ 1979  git add .
+ 1980  git commit -m "test"
+ 1981  git push
+ 1982  git add .
+ 1983  git commit -m "FIX"
+ 1984  git push
+ 1985  EXIT
+ 1986  exit
+ 1987  npx create-react-app amazon-clone
+ 1988  ls 
+ 1989  cd als-higher-level-programming
+ 1990  cd alx-higher-level-programming
+ 1991  cd alx-higher_level_programming
+ 1992  ls
+ 1993  mkdir 0x0E-SQL_more_queries
+ 1994  cd 0x0E-SQL_more_queries
+ 1995  echo "0x0E-SQL_more_queries" >> README.md
+ 1996  code .
+ 1997  ls -l
+ 1998  ls -R
+ 1999  ls -l -t
+ 2000  ls -l -t -r
+ 2001  ls -lh
+ 2002  cd react/
+ 2003  ls
+ 2004  cd ..
+ 2005  cd alx-system_engineering-devops
+ 2006  ls
+ 2007  cd 0x04-loops_conditions_and_parsing
+ 2008  ls
+ 2009  cat .
+ 2010  cat 5-4_bad_luck_8_is_your_chance
+ 2011  cat 8-for_ls
+ 2012  ls
+ 2013  cat 6-superstitious_numbers
+ 2014  ls
+ 2015  cat 3-until_best_school
+ 2016  cd ../..
+ 2017  ls
+ 2018  cd alx-higher_level_programming
+ 2019  ls
+ 2020  cd 0x06-python-classes
+ 2021  ls
+ 2022  cat 4-square.py
+ 2023  ls
+ 2024  cat 1-square.py
+ 2025  cd ..
+ 2026  ls
+ 2027  cd AirBnB_clone
+ 2028  ls
+ 2029  cd models
+ 2030  ls
+ 2031  cat base_model.py 
+ 2032  cd ..
+ 2033  git pull
+ 2034  code .
+ 2035  cd ..
+ 2036  ls
+ 2037  mkdir umuzi-bootcamp | cd umuzi-bootcamp
+ 2038  ls
+ 2039  cd umuzi-bootcamp
+ 2040  ls
+ 2041  git init
+ 2042  ls -a
+ 2043  git status
+ 2044  touch README.md
+ 2045  ls -a
+ 2046  git status
+ 2047  git log
+ 2048  git add README.md
+ 2049  git status
+ 2050  git reset HEAD <file>
+ 2051  git reset HEAD README.md
+ 2052  git reset README.md
+ 2053  git status
+ 2054  git add .
+ 2055  git status
+ 2056  git commit -m "initial commit"
+ 2057  git log
+ 2058  nano README.md
+ 2059  cat README.md
+ 2060  git status
+ 2061  git add .
+ 2062  git commit -m "second commit"
+ 2063  nano README.md
+ 2064  git add .
+ 2065  git commit -m "third commit"
+ 2066  git log
+ 2067  git checkout 660a4fdb4539b270797f310e021904121c12c8f8
+ 2068  cat README.md
+ 2069  git status
+ 2070  git log
+ 2071  git checkout main
+ 2072  git checkout master
+ 2073  cat README.md
+ 2074  gti branch
+ 2075  git branch
+ 2076  git branch milkshake-flavours
+ 2077  git branch
+ 2078  git checkout milkshake-flavours
+ 2079  git branch
+ 2080  ls
+ 2081  nano milkshakes.md
+ 2082  git status
+ 2083  git add .
+ 2084  git commit -m "first commit for the noew file"
+ 2085  git log
+ 2086  git checkout master
+ 2087  ls
+ 2088  git checkout history
+ 2089  git checkout -b history
+ 2090  git status
+ 2091  git branch
+ 2092  git log
+ 2093  history>history.txt
